@@ -1,0 +1,129 @@
+:root{
+    --fondo: #8EB4EF;
+}
+body{
+    background-color: var(--fondo);
+ }
+ .foto {
+    width: 100px;
+    height: 100px;
+    margin: 1%;
+ }
+ .campe {
+     font-family: "Arimo";
+     color: #3383FF;
+     text-align: center;
+     font-size: 60px;
+     display: inline-block;
+     margin-left: 15%;
+ }
+ .ana {
+    font-family: "Arimo";
+    color: #3383FF;
+    text-align: center;
+    font-size: 60px;
+    margin-left: 19%;
+ }
+
+.imagenes {
+    background-color: #91D6D4;
+    margin: 5%;
+    padding: 10px;
+    border-radius: 5%;
+}
+ .img {
+    max-width: 100%;
+    height: auto;
+ }
+
+ nav{
+    background:#DE9FE9;
+    font-family: Arimo;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around; 
+ }
+ 
+ h1::selection {
+    color: #DE9FE9;
+ }
+
+  .campera_div1 {
+    margin-left: 12%;
+    display: inline-block;
+    font-family: Arimo;
+  }
+  .campera_div1 p:hover{
+      color: #DE9FE9;
+  }
+  .campera_div2 {
+    margin-left: 12%;
+    display: inline-block;
+    font-family: Arimo;
+  }
+
+  .campera_div2 p:hover{
+    color: #DE9FE9;
+}
+  .campera_div3 {
+    display: inline-block;
+    margin-left: 12%;
+    font-family: Arimo;
+  }
+
+  .campera_div3 p:hover{
+    color: #DE9FE9;
+}
+  .campera_div4 {
+    display: inline-block;
+    margin-left: 12%;
+    font-family: Arimo;
+  }
+
+  .campera_div4 p:hover{
+    color: #DE9FE9;
+}
+
+
+
+ @media screen and (max-width: 10000px){
+    .body{
+       height: auto;
+       display:auto;
+       width: auto;
+       min-width: 250px
+    }
+    .h1{
+       width: auto;
+    }
+    .h4{
+       width: auto;
+    }
+    .form{
+       height: auto;
+       display:auto;
+       width: auto;
+       min-width: 250px
+    }
+    .info_form{
+       height: auto;
+       display:auto;
+       width: auto;
+       min-width: 250px
+       }
+    .contenedor{
+       display:auto;
+       width: auto;
+       height: auto;
+       min-width: 250px
+    }
+    .mark{
+       display:auto;
+    }
+    .img{
+       width: auto;
+    }
+    .nav-enlace:hover{
+       width: auto;
+    }
+}
