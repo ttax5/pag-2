@@ -1,0 +1,66 @@
+* {
+	--color: black;
+} 
+body {
+	background-color: lightpink;
+	margin:  0;
+	padding: 0;
+	width: 100%;
+/* para que sea responsive */
+}
+.titulo {
+	font-size: 50px;
+}
+a {
+	color: black;
+	text-decoration: none;
+}
+li {
+	display: inline-block;
+	text-align: center;
+}
+h1 {
+	font-family: Arial Black;
+	color: #711818;
+}
+h2, p {
+	font-family: Arial;
+	color: var(color);
+}
+.bloque h2 {
+	color:  lightblue;
+}
+.bloque.parallax {
+	height: auto; /*automatizar el alto de la imagen en px*/
+	width: 100%; /*forzar el ancho de la imagen para que ocupe toda la pagina*/
+	background-position: center; /*centrar el fondo*/ 
+	background-repeat: no-repeat; /*no se repite el fondo*/
+	background-size: 100% 100%; /*ocupa todo el ancho*/
+	background-attachment: fixed; /*dejar el fondo quieto a pesar del scroll*/
+	line-height: 600px; /*define cuanto va a ser la linea del alto d esa imagen*/
+}
+
+.parallax.img1 {
+	background-image: url(anashe.gif);
+}
+.parallax.img2 {
+	background-image: url(among.gif);
+}
+.parallax.img3 {
+	background-image: url(will.gif);
+}
+
+.gabino {
+	width: 50%;
+}
+.gabino_texto {
+	display: inline-block;
+}
+.rick {
+	float: right;
+	width: 50%;
+}
+.rick_texto {
+	float: left;
+	display: inline-block;
+}
